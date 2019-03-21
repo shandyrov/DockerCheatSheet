@@ -1,0 +1,5 @@
+php bin/console cache:clear
+
+// view all routes
+php bin/console debug:router
+
