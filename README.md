@@ -8,11 +8,13 @@ php bin/console debug:router
 php bin/console config:dump-reference
 
 # Assets
+```sh
 // make a hard copy of the assets in web/
-php bin/console assets:install
+$ php bin/console assets:install
 
 // if possible, make absolute symlinks in web/ if not, make a hard copy
-php app/console assets:install --symlink
+$ php app/console assets:install --symlink
 
 // if possible, make relative symlinks in web/ if not, make a hard copy
-php app/console assets:install --symlink --relative
+$ php app/console assets:install --symlink --relative
+```
