@@ -1,4 +1,4 @@
-# Clear cacche 
+# Clear cache 
 php bin/console cache:clear
 
 # View all routes
