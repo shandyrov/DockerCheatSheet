@@ -2,12 +2,14 @@
 ```sh
 php bin/console cache:clear
 ```
-```sh
+
 # View all routes
+```sh
 php bin/console debug:router
 ```
-```sh
+
 # List all bundles
+```sh
 php bin/console config:dump-reference
 ```
 # Assets
