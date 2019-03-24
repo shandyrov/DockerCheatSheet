@@ -23,3 +23,8 @@ $ php app/console assets:install --symlink
 // if possible, make relative symlinks in web/ if not, make a hard copy
 $ php app/console assets:install --symlink --relative
 ```
+# Available services
+
+```php
+php bin/console debug:autowiring
+```
